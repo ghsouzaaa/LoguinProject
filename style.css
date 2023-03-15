@@ -1,0 +1,141 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body{
+  font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(228, 126, 123);
+
+}
+.loguin-card{
+  width: 450px;
+  background: rgba(207, 4, 4, 0.5);
+  padding: 4rem;
+  border-radius: 10px;
+  position: relative;
+
+}
+.loguin-card::before{
+  content: '';
+  position: absolute;
+  background: rgba(156, 7, 7, 0.15);
+  inset: 0;
+  transform: rotate(-5px);
+  z-index: -1;
+}
+.loguin-card-logo{
+  margin-bottom: 2rem;
+
+}
+.loguin-card-logo img{
+  width: 60px;
+
+}
+.loguin-card-logo,
+.loguin-card-header,
+.loguin-card-footer{
+  text-align: center;
+  
+}
+
+.loguin-card a{
+  text-decoration: none;
+  color: #35339a;
+}
+
+.loguin-card a:hover{
+  text-decoration: underline;
+}
+
+.loguin-card-header{
+  margin-bottom: 2rem;
+}
+
+.loguin-card-header h1{
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: .5rem;
+}
+
+.loguin-card-header h1 + div{
+  font-size: calc(1rem * .8);
+  opacity: .8;
+
+}
+.checkbox{
+  color: white;
+}
+#pass1{
+  color: white;
+}
+#pass2{
+  color: white;
+}
+
+.loguin-card-header div{
+  color: white;
+}
+
+.loguin-card-form{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.loguin-card-form .form-item{
+  position: relative;
+
+}
+.loguin-card-form .form-item .form-item-icon{
+  position: absolute;
+  top: .82rem;
+  left: 1.4rem;
+  font-size: 1.3rem;
+  opacity: .4;
+}
+
+.loguin-card-form .checkbox{
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.loguin-card-form .form-item-other {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: calc(1rem * .8);
+  margin-bottom: .5rem;
+}
+.loguin-card-footer {
+  margin-top: 1.5rem;
+  font-size: calc(1rem * .8);
+}
+
+.loguin-card input[type="text"],
+.loguin-card input[type="password"],
+.loguin-card input[type="email"]{
+  border: none;
+  outline: none;
+  background-color: rgb(235, 235, 80);
+  padding: 1rem 1.5rem;
+  padding-left: calc(1rem * 3.5);
+  border-radius: 100px;
+  width: 100%;
+  transition: background .5s;
+  width: 360px;
+
+}
+
+
+
+
+
+.lego-logo{
+  margin-left: 90px;
+  width: 60%;
+  height: auto;
+}
